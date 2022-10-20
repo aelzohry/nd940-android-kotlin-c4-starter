@@ -119,4 +119,7 @@ dependencies {
     implementation "com.google.android.gms:play-services-maps:$playServicesMapsVersion"
 
     implementation "com.jakewharton.timber:timber:$timberVersion"
+
+    // Firebase
+    implementation "com.firebaseui:firebase-ui-auth:$firebaseUIVersion"
 }
