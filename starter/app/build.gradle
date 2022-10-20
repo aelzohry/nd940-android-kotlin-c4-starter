@@ -117,4 +117,6 @@ dependencies {
     //Maps & Geofencing
     implementation "com.google.android.gms:play-services-location:$playServicesVersion"
     implementation "com.google.android.gms:play-services-maps:$playServicesMapsVersion"
+
+    implementation "com.jakewharton.timber:timber:$timberVersion"
 }
