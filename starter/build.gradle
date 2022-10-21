@@ -68,5 +68,6 @@ ext {
     espressoVersion = '3.4.0'
     gsonVersion = '2.9.1'
     timberVersion = '5.0.1'
+    firebaseAuth = '21.1.0'
     firebaseUIVersion = '8.0.2'
 }
