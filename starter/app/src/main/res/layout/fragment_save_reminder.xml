@@ -71,7 +71,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_normal"
             android:fadeVisible="@{!viewModel.showLoading.booleanValue()}"
-            android:onClick="@{() -> viewModel.onSave()}"
             android:src="@drawable/ic_save"
             app:fabSize="normal"
             app:layout_anchorGravity="bottom|right|end"

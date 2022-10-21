@@ -45,7 +45,7 @@ class SelectLocationFragment : BaseFragment(), OnMapReadyCallback {
                 // All permissions are granted
                 zoomToUserLocation()
             } else {
-                _viewModel.showErrorMessage.value =
+                _viewModel.showSnackBar.value =
                     getString(R.string.permission_denied_explanation)
             }
         }
