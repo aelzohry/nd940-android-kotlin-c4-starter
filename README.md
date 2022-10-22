@@ -42,9 +42,30 @@ Explain what each test does and why
 
 ```
 1.androidTest
-        //TODO: Students explain their testing here.
+        - Testing Database DAO (Fetching/Saving/Updating/Deleting)
+        - Testing Local Repository with DAO
+        - Testing ReminderListFragment:
+            - Navigation to save reminder screen
+            - Navigation to reminder details screen
+            - Displaying reminders data
+            - Displaying No Data Text if no reminders are found
+        - Testing RemindersActivity (End-To-End Tests):
+            - Logout action redirects to authentication screen
+            - Showing snackbars for errors
+            - Navigating to details screen from reminders list
+            - Validating input data and showing errors
+            - Showing No data
 2. test
-        //TODO: Students explain their testing here.
+        - RemindersListViewModel (using fake data source):
+            - Testing loading indicators with help of TestCouroutineRules and pausing and resuming dispatchers
+            - Testing error messages with toasts & snackbar
+            - Testing live data objects with helper function (getOrAwaitValue)
+            - Testing calling data source operations correctly
+        - SaveReminderViewModel (using fake data source):
+            - Testing validation & error messages
+            - Testing loading indicators
+            - Testing saving reminder correctly with all fields
+            - Testing showing successful message after saving the reminder
 ```
 
 ## Project Instructions
